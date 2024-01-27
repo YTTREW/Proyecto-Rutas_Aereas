@@ -1,0 +1,61 @@
+/*! \mainpage Practica final: Rutas aereas
+
+@image html doxyque.png "Imagen del resultado final de la practica."
+
+# Introducción
+
+Se desea crear un software para ayudar a un compañía aérea poder visualizar sus rutas (sobre
+los países que pasa). En concreto la empresa aérea querrá visualizar en un mapa del mundo
+rutas con un código determinado.
+
+Practica realizada por Jaime Parra Jiménez y Carlos Fernández Arrabal.
+
+# Ejecutables
+
+## Prueba Pegado:
+@image html pegado.png
+
+Se permitirá al usuario, dada una imagen de fondo y una segunda imagen
+superponer la segunda imagen sobre la imagen de fondo.
+
+> __pruebapegado__ \<ImagenOriginal\> \<ImagenPegar\> \<Mascara\> \<ImagenSalida\> \<fila\> \<columna\> \<transparencia\>
+
+@param <ImagenOriginal> Imagen de fondo en formato ppm.
+@param <ImagenPegar> Imagen que se va a pegar sobre la primera (formato ppm).
+@param <Mascara> Nombre de la imagen máscara de la segunda imagen.
+@param <ImagenSalida> Imagen de salida.
+@param <fila> Fila donde se empieza el pegado.
+@param <columna> Columan donde se empieza el pegado.
+@param <transparencia> 0 si es opaco y 1 si es “blending”.
+
+
+
+## Prueba Rotación:
+@image html rotado.png
+
+Se permitirá al usuario dada una imagen y un ángulo obtener una nueva imagen que
+es la versión rotada, en el numero de grados dado, de la primera imagen.
+
+> __pruebarotacion__ \<ImagenOriginal\> \<GradosRotacion\> \<ImagenRotada\>
+
+@param <ImagenOriginal> Imagen en formato ppm.
+@param <GradosRotacion> Grados que queremos toar la imagen.
+@param <ImagenRotada> Imagen rotada.
+
+## Ruta Aerea:
+@image html salida.png
+
+Este programa obtiene un mapa del mundo sobre el que se ha pintado una ruta elegida.
+
+> __ruta_aerea__ \<paises.txt\> \<Mapa\> \<dir_banderas\> \<Almacen_rutas.txt\> \<Avion\> \<Mascara_avion\>
+
+@param <paises.txt> Fichero de texto con todos los países.
+@param <Mapa> Imagen del mapa donde se pegará la ruta.
+@param <dir_banderas> Directorio con las banderas de los países.
+@param <Almacen_rutas.txt> Fichero de texto con las rutas .
+@param <Avion> Imagen del avión.
+@param <Mascara_avion> Mascara del avión.
+
+
+
+*/
