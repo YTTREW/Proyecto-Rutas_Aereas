@@ -8,7 +8,7 @@ Asegúrate de tener instalados los siguientes requisitos previos antes de ejecut
 
 - CMake
 
-## Instrucciones de Compilación
+## Instrucciones de Clonación y Compilación
 
 1. Clona este repositorio en tu máquina local:
 
