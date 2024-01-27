@@ -1,4 +1,4 @@
-# Proyecto TDAs-Rutas_A-reas
+# Proyecto Rutas_Aereas
 
 Este proyecto tiene como objetivo visualizar rutas aéreas sobre un mapa del mundo, indicando los países que atraviesa y proporcionando una representación gráfica de la ruta con banderas y marcadores de aviones.
 
@@ -13,8 +13,8 @@ Asegúrate de tener instalados los siguientes requisitos previos antes de ejecut
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone git@github.com:YTTREW/TDAs-Rutas_A-reas.git
-   cd TDAs-Rutas_A-reas
+   git clone git@github.com:YTTREW/Proyecto-Rutas_Aereas.git
+   cd Proyecto-Rutas_Aereas
    cmake ./
    make
 
